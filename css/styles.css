@@ -1,0 +1,178 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+.container-fluid{
+  padding: 3% 15% 3% ;
+}
+/* first part of the page */
+
+#title{
+  background-color: #ff4c68;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 3%;
+}
+
+/* heading and tag line */
+.heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 300%;
+  line-height: 1.5;
+  padding-bottom: 48px;
+
+}
+
+/* navbar */
+.navbar{
+  padding:0 0 4.25rem !important;
+}
+.navbar-brand{
+  font-size: 3.5rem !important;
+  font-weight:bolder;
+}
+
+.nav-item{
+  padding: 0 12px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* image */
+
+.rotate{
+  width: 50%;
+  transform:rotate(30deg);
+  position: absolute;
+  left:18%;
+}
+
+@media (max-width:1000px) {
+  .rotate{
+    transform: rotate(0);
+    position: static;
+  }
+  #title{
+    text-align: center;
+  }
+}
+/* features */
+
+#features{
+  position: relative;
+  /* z-index: 1; */
+  background-color: #fff;
+}
+.row2{
+  text-align: center;
+  padding: 5% 5%;
+}
+
+/* icons(apple,heart) */
+
+.f{
+  color: #ef8172;
+}
+.f:hover{
+  color: #ff4c68;
+}
+
+/* features details */
+
+.h3{
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+.p1{
+  width: 60%;
+  margin: auto;
+  color: #8f8f8f;
+}
+
+/* testiminials */
+
+#testimonials{
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.header2{
+  text-align: center;
+  margin: auto;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.testimonial-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+/* press */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 0 10% 3% 10%;
+}
+
+.press-logo{
+  width: 20%;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 5% ;
+  text-align: center;
+}
+
+#pricing .btn{
+  padding-left:35%;padding-right:35% ;
+}
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15%;
+}
+#cta .h3{
+  padding: 3% 0 5%;
+  font-weight: bolder !important;
+  font-family: 'Montserrat', sans-serif !important;
+  color: #fff !important;
+  font-size:2.5rem !important;
+}
+
+/* Footer */
+
+#footer{
+  text-align: center;
+  padding: 3% 15% 1%;
+}
+.icons{
+  padding: 1%;
+}
+
+/* Copyright */
+.Copyright{
+  color: #8f8f8f;
+}
